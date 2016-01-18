@@ -28,6 +28,7 @@ body {
   background-image: linear-gradient(to bottom, #e2e2e2, #ccc);
   text-align: center;
   color: #333;
+  position: relative;
 }
 
 .song {
@@ -43,7 +44,11 @@ body {
 }
 
 .album {
-
+  max-height: 6em;
+  float: left;
+  display: block;
+  left: 0em;
+  top: 0em;
 }
 
 .time {
@@ -58,6 +63,7 @@ body {
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
+  width: 100%
 }
 
 /*
