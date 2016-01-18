@@ -105,13 +105,19 @@ body {
 }
 
 .control-shuffle {
-
+  position: absolute;
+  top: 0em;
+  left: 4em;
 }
 
 .control-list {
-
+  position: absolute;
+  top: 0em;
+  right: 0.2em;
 }
 
 .control-heart {
-
+  position: absolute;
+  top: 0em;
+  right: 1.2em;
 }
